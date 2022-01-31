@@ -1,4 +1,4 @@
-import { Box, Button, Header, Main, Nav, Paragraph } from "grommet";
+import { Box, Button, Header, Main, Nav } from "grommet";
 import { Home } from "grommet-icons";
 import React from "react";
 import { LogoutButton, Profile } from "..";
