@@ -1,4 +1,5 @@
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from "recharts";
+import { LoginButton, LogoutButton, Profile } from "../../components";
 
 const data = [
 	{ name: "Pizza", amount: 39.99 },
@@ -8,13 +9,18 @@ const data = [
 
 export function FirstChart() {
 	return (
-		<LineChart width={600} height={400} data={data}>
-			<Line type="monotone" dataKey="amount" stroke="#8884d8" />
-			<CartesianGrid stroke="#ccc" />
-			<XAxis dataKey="name" />
-			<YAxis />
-			<Tooltip />
-			<Legend />
-		</LineChart>
+		<>
+			<LoginButton />
+			<LogoutButton />
+			<Profile />
+			<LineChart width={600} height={400} data={data}>
+				<Line type="monotone" dataKey="amount" stroke="#8884d8" />
+				<CartesianGrid stroke="#ccc" />
+				<XAxis dataKey="name" />
+				<YAxis />
+				<Tooltip />
+				<Legend />
+			</LineChart>
+		</>
 	);
 }
