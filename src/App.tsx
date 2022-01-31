@@ -1,8 +1,9 @@
 import { FirstChart } from "./pages";
 import "./App.css";
+import { Layout } from "./components";
 
 function App() {
-	return <FirstChart />;
+	return <Layout />;
 }
 
 export default App;
