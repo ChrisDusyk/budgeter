@@ -1,9 +1,9 @@
 import { Box } from "grommet";
 import { LogoutButton, Profile } from "..";
 
-export function Authenticated() {
+export function AuthenticatedView() {
 	return (
-		<Box justify="center" align="center">
+		<Box align="start" justify="start" border={{ color: "brand", size: "medium" }}>
 			<Profile />
 			<LogoutButton />
 		</Box>
