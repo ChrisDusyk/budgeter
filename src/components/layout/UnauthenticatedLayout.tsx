@@ -1,7 +1,7 @@
 import { Box, Heading } from "grommet";
 import { LoginButton } from "..";
 
-export function UnauthenticatedView() {
+export function UnauthenticatedLayout() {
 	return (
 		<Box
 			a11yTitle="You're unauthenticated! Please log in."
