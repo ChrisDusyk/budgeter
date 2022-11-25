@@ -4476,6 +4476,11 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
+functional-ts-primitives@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/functional-ts-primitives/-/functional-ts-primitives-1.1.0.tgz#601e910d8687c57bba21e0e881e6fb0fb1c31eb9"
+  integrity sha512-cco4/yD0JZzDpiRvZT19FzsJ5tGOyXXT1i/6djOZ7SXULyZ0wN2l3+cc1/2sAhA/Uu84W5BasHcFq0fp1krI+w==
+
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz"
